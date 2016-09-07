@@ -1,0 +1,3 @@
+unit_converter_homepage:
+    path:     /
+    defaults: { _controller: UnitConverterBundle:Default:index }
