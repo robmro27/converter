@@ -1,4 +1,3 @@
 services:
-#    unit_converter.example:
-#        class: Unit\ConverterBundle\Example
-#        arguments: ["@service_id", "plain_value", %parameter%]
+    unit_converter:
+            class:        Unit\ConverterBundle\DependencyInjection\Converter
