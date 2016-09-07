@@ -1,0 +1,30 @@
+{
+    "name" : "unit/converterbundle",
+    "description" : "A converter bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "robmro27",
+        "email" : "robert.mroz1985@gmail.com"
+    }],
+    "keywords" : [
+        "converter bundle"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Unit\\ConverterBundle" : ""
+        }
+    },
+    "target-dir" : "Unit/ConverterBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "first-dev"
+        }
+    }
+}
